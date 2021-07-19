@@ -1,4 +1,4 @@
-[![cover_banner](https://lh6.googleusercontent.com/Uk1rPG3q1e29nY2zepV3fQdsiWL3fkg-ZpzudCZMuqZvs9OTi90xDtkBR0RYBVT9qaGhTDwfzFSumA=w1920-h947-rw)](https://github.com/gemasaputera/catch-pokemon)
+[![cover_banner](https://lh6.googleusercontent.com/Uk1rPG3q1e29nY2zepV3fQdsiWL3fkg-ZpzudCZMuqZvs9OTi90xDtkBR0RYBVT9qaGhTDwfzFSumA=w1920-h947-rw)](https://catch-pokemon-test.netlify.app/)
 
 # Deployment Project
 
