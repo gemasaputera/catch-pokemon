@@ -24,6 +24,7 @@ const ListItem = ({
   owned,
   handleMore,
   withMore,
+  handleRelease,
 }) => {
   const [myPokemon, setMyPokemon] = useState([]);
   const history = useHistory();
@@ -85,6 +86,7 @@ const ListItem = ({
               isOwnedItem={isOwnedItem}
               ownedItem={ownedItem(item.name)}
               onClickItem={onClickItem}
+              handleRelease={handleRelease}
             />
           );
         })}

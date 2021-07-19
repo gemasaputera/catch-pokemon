@@ -1,10 +1,10 @@
 import React from "react";
 
-const BigPokeball = () => {
+const BigPokeball = ({ width = 130, height = 129 }) => {
   return (
     <svg
-      width="130"
-      height="129"
+      width={width}
+      height={height}
       viewBox="0 0 130 129"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

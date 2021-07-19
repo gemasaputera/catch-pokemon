@@ -18,6 +18,12 @@ const Pokedex = () => {
     }
   }, []);
 
+  const handleRelease = (item) => {
+    const filtered = myPokemon.filter((el) => el.nickname !== item.nickname);
+    localStorage.setItem("myPokemon", JSON.stringify(filtered));
+    setMyPokemon(filtered);
+  };
+
   return (
     <Container>
       <WrapperTitle>
@@ -27,6 +33,7 @@ const Pokedex = () => {
       <ListItem
         title="Pokemon List"
         data={myPokemon}
+        handleRelease={handleRelease}
         message="Looks like your pokedex is still empty, let's add your pokemon"
       />
       <WrapperNavigation>

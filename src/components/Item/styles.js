@@ -5,12 +5,13 @@ export const Container = styled.div`
   padding: 16px;
   border-radius: 16px;
   min-height: 170px;
+  max-width: 170px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 2px 15px #cad2e1;
-  cursor: pointer;
+  position: relative;
 `;
 
 export const Name = styled.p`
@@ -20,6 +21,7 @@ export const Name = styled.p`
   font-weight: 600;
   margin: 0;
   text-transform: capitalize;
+  cursor: pointer;
 `;
 
 export const Subtitle = styled.p`
@@ -29,4 +31,12 @@ export const Subtitle = styled.p`
   font-weight: 400;
   margin: 0;
   text-transform: capitalize;
+`;
+
+export const WrapperRelease = styled.div`
+  cursor: pointer;
+  position: absolute;
+  bottom: -20px;
+  height: 40px;
+  width: 40px;
 `;
