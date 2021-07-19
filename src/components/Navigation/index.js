@@ -20,10 +20,6 @@ const Navigation = () => {
     },
   ]);
 
-  useEffect(() => {
-    handleModifyMenu();
-  }, []);
-
   const handleModifyMenu = useCallback(() => {
     const modifyMenu = [];
     menus.map((menu) => {
@@ -35,6 +31,10 @@ const Navigation = () => {
     });
     setMenus(modifyMenu);
   }, [location.pathname, menus]);
+
+  useEffect(() => {
+    handleModifyMenu();
+  }, []);
 
   return (
     <ContainerMenu>

@@ -12,14 +12,14 @@ const BigPokeball = () => {
       <g filter="url(#filter0_d)">
         <mask id="path-1-inside-1" fill="white">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M114.842 67H15.1577C17.1954 92.744 38.7322 113 65 113C91.2678 113 112.805 92.744 114.842 67ZM114.842 59H15.1577C17.1954 33.256 38.7322 13 65 13C91.2678 13 112.805 33.256 114.842 59ZM15 62.9316C15 62.9544 15 62.9772 15 63C15 63.0228 15 63.0456 15 63.0684V62.9316Z"
           />
         </mask>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M114.842 67H15.1577C17.1954 92.744 38.7322 113 65 113C91.2678 113 112.805 92.744 114.842 67ZM114.842 59H15.1577C17.1954 33.256 38.7322 13 65 13C91.2678 13 112.805 33.256 114.842 59ZM15 62.9316C15 62.9544 15 62.9772 15 63C15 63.0228 15 63.0456 15 63.0684V62.9316Z"
           fill="#F04037"
         />
@@ -30,14 +30,14 @@ const BigPokeball = () => {
         />
         <mask id="path-3-inside-2" fill="white">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M15 63L15.0001 63.0684V63H15ZM65 113C38.7322 113 17.1955 92.744 15.1577 67H114.842C112.805 92.744 91.2679 113 65 113Z"
           />
         </mask>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M15 63L15.0001 63.0684V63H15ZM65 113C38.7322 113 17.1955 92.744 15.1577 67H114.842C112.805 92.744 91.2679 113 65 113Z"
           fill="white"
         />
@@ -49,14 +49,14 @@ const BigPokeball = () => {
       </g>
       <mask id="path-5-inside-3" fill="white">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M86.5283 59H115V67H86.7165C85.0451 77.2094 76.1823 85 65.5 85C54.8177 85 45.9549 77.2094 44.2835 67H15V59H44.4717C46.5403 49.2862 55.1693 42 65.5 42C75.8307 42 84.4597 49.2862 86.5283 59Z"
         />
       </mask>
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M86.5283 59H115V67H86.7165C85.0451 77.2094 76.1823 85 65.5 85C54.8177 85 45.9549 77.2094 44.2835 67H15V59H44.4717C46.5403 49.2862 55.1693 42 65.5 42C75.8307 42 84.4597 49.2862 86.5283 59Z"
         fill="#58585B"
       />
