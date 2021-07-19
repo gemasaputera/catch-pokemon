@@ -1,6 +1,6 @@
-import React from "react";
+import React, { lazy } from "react";
 import { Container, WrapperRelease, Name, Subtitle } from "./styles";
-import BigPokeball from "../../components/Icons/BigPokeball";
+const BigPokeball = lazy(() => import("../../components/Icons/BigPokeball"));
 
 const Item = ({ data, ownedItem, isOwnedItem, handleRelease, onClickItem }) => {
   return (
@@ -11,7 +11,7 @@ const Item = ({ data, ownedItem, isOwnedItem, handleRelease, onClickItem }) => {
         </WrapperRelease>
       )}
       <div style={{ cursor: "pointer" }} onClick={() => onClickItem(data)}>
-        <img src={data.image} alt={data.name} />
+        <img src={data.image} alt={data.name} width={96} height={96} />
       </div>
       <Name onClick={() => onClickItem(data)}>{data.name}</Name>
       {isOwnedItem && <Subtitle>{ownedItem || 0} Owned</Subtitle>}

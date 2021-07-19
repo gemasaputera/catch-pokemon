@@ -1,11 +1,13 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
+  @media (min-width: 361px) {
+    max-width: 170px;
+  }
   background-color: #fff;
   padding: 16px;
   border-radius: 16px;
   min-height: 170px;
-  max-width: 170px;
   display: flex;
   flex-direction: column;
   justify-content: center;
